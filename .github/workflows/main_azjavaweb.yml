@@ -32,5 +32,5 @@ jobs:
         app-name: AzJavaWeb
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D662D4F250C848D5A99E0A66A053E0C8 }}
-        package: ${{ github.workspace }}/target/*.jar
+        package: ${{ github.workspace }}/target/*.war
 
